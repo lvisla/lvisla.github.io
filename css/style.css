@@ -1,0 +1,165 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.logo>h1{
+	width:100%; 
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	
+}
+.logo>img{
+text-align:end;
+}
+
+.logo h1{
+	front-size:35px;
+	letter-spacing:2px;
+	margin-top:20px;
+	margin-bottom:5px;
+}
+.logo h1:hover{
+	color:dimgray;
+}
+.logo p{
+	front-size:16px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.导航 {
+	width:100%;
+	border-top: 2px solid #272822;
+	border-bottom: 2px solid #272822;
+	height: 60px;
+}
+.导航>ul{
+	display:flex;
+	padding: 20px;
+	letter-spacing:2px;
+	justify-content: center;
+}
+.导航>ul>li{
+	margin: 0 20px 0 20px;
+	position: relative;
+}
+.导航 ul li a{
+	color:black;
+	text-decoration: none;
+}
+
+.导航 ul li ul{
+	display: none;
+	margin-top:-85px ;
+	background: #818181;
+	border-style: double;
+}
+.导航>ul>li:hover ul{
+	display: block;
+}
+.导航>ul>li>a:hover{
+	color:#818181;
+}
+.banner-container{
+	float:right;
+	width:1200px;
+	height:600px;
+	margin:1rem auto;
+	overflow: hidden;
+	position: relative;
+}
+.banner-container .banner-img-container {
+	width:7200px;
+	height:600px;
+	overflow: hidden;
+	position: absolute;
+	display: flex;
+	animation: run 10s ease infinite;
+}
+.banner-container .banner-img-container img{
+	width:1200px;
+	height:100%;
+}
+@keyframes run {
+	0%,10%{
+		transform: translateX(0);
+	}
+	20%,30%{
+		transform: translateX(-1200px);
+	}
+	40%,50%{
+		transform: translateX(-2400px);
+	}
+	60%,70%{
+		transform: translateX(-3600px);
+	}
+	80%,90%{
+		transform: translateX(-4800px);
+	}
+	100%{
+		transform: translateX(0);
+	}
+}
+.海报区{
+	display:flex;
+}
+.doctor{
+	display:flex;
+}
+.doctor img{
+	margin-left: 40px;
+}
+.doctor>h2{
+	width:10%;
+float:left;
+	margin-top:20px;
+	text-shadow: 5px 5px 5px #9ca696
+}
+.aboutdoctor{
+	border:2px solid #a1a1a1;
+		padding:10px 40px; 
+		background-image:url(../img/header_bg.jpeg);
+		width:100%;
+		border-radius:25px;
+display:block;
+margin-top: 10px;
+margin-right: 20px;
+line-height:27px;
+}
+.block2 p{
+	width:70px;
+	display:none;
+	margin-top: -50px;
+	margin-left:-70px;
+	background-color: #a9ad94;
+}
+.block2:hover p{
+	display:block;
+}
+.block1 strong{
+	display:none;
+	width:120px;
+	margin-left: -130px;
+	margin-top: -30px;
+}
+.block1:hover strong{
+	display:block;
+	background-color: #858874;
+	color:#272822
+}
+
+.block1:hover{
+	color: #818181;
+}
+.block2:hover{
+	color: #818181;
+}
+.como{
+	display:flex;
+}
+.jieshao1{
+	display:flex;
+}
+.jieshao2{
+	display:flex;
+}
